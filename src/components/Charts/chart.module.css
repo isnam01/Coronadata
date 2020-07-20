@@ -2,10 +2,11 @@
     display: flex;
     width:85%;
     justify-content: center;
+    flex-direction: column;
 }
 
 @media (max-width:770px){
     .container{
-        width:120%;
+        width:100%;
     }
 }
