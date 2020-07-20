@@ -5,7 +5,6 @@ const url=" https://covid19.mathdro.id/api";
 export const fetchData=async (country)=>{
 try{
     let changeableurl=url;
-    let countryurl='';
     if(country){
         changeableurl=`${url}/countries/${country}`;
         }
